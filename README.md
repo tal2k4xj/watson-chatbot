@@ -65,10 +65,12 @@ Recorded session: https://www.crowdcast.io/e/chatbot
 12. Give your action a name, select Python 3.7 runtime and click "Create"
 
 13. Copy & replace the code:
-`import sys
+```
+import sys
 
 def main(dict):
-    return { 'message': 'Your appointment scheduled for {0} at {1}'.format(dict["date"],dict["time"]) }` 
+    return { 'message': 'Your appointment scheduled for {0} at {1}'.format(dict["date"],dict["time"]) }
+```
 
 14. Click "save"
 
